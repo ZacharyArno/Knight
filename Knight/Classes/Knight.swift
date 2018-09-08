@@ -8,10 +8,10 @@
 
 import Foundation
 
-@objc
-class Knight: NSObject {
+
+public class Knight: NSObject {
     
-    func callMe()  {
+    public func callMe()  {
         print(" i am black jack")
     }
     
