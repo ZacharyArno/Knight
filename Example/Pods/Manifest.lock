@@ -1,0 +1,16 @@
+PODS:
+  - Knight (0.1.0)
+
+DEPENDENCIES:
+  - Knight (from `../`)
+
+EXTERNAL SOURCES:
+  Knight:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Knight: f1333d462be51ae153e78563475e7cc0a6e82989
+
+PODFILE CHECKSUM: cdc17cf0410c5afbb5d78ee718da55ad646abd8a
+
+COCOAPODS: 1.5.3

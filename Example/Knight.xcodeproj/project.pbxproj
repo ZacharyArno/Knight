@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		06860A0FDB426D5E64A3FBE9 /* Pods-Knight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knight_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Knight_Tests/Pods-Knight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		160AAD9AE9657CD932A7194A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		160AAD9AE9657CD932A7194A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		37B5A78CA2B62715C178C7CE /* Pods-Knight_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knight_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Knight_Example/Pods-Knight_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		52C4D166D41D756D09732C3C /* Pods_Knight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knight_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Knight_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Knight_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,11 @@
 		607FACE51AFB9204008FA782 /* Knight_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Knight_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6EF33F71F77DA308EA641C2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6EF33F71F77DA308EA641C2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		96F78EFFA97E692D4EB5B26B /* Pods-Knight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knight_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Knight_Example/Pods-Knight_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABF1A98B1353F5F01646FA24 /* Pods_Knight_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Knight_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC810B5F9CEDC517F9125C78 /* Pods-Knight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Knight_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Knight_Tests/Pods-Knight_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DFB25408AC7A861E2A0BCA83 /* Knight.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Knight.podspec; path = ../Knight.podspec; sourceTree = "<group>"; };
+		DFB25408AC7A861E2A0BCA83 /* Knight.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Knight.podspec; path = ../Knight.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -470,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Knight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Knight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
